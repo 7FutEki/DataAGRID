@@ -1,0 +1,21 @@
+﻿<Window x:Class="DataGrid.SpisokAdd"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DataGrid"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="Добавить" Height="450" Width="800">
+    <Grid>
+        
+            <StackPanel>
+                <TextBlock Text="Дело" Margin="20,10"/>
+                <TextBox x:Name="tb_thing" Margin="20, 10"/>
+                <TextBlock Text="Дата (дд.мм.гг)" Margin="20,10"/>
+                <TextBox x:Name="tb_date" Margin="20,10"/>
+                <Button x:Name="btn_add" Content="Добавить" Click="btn_add_Click" Margin="20,10"/>
+            </StackPanel>
+        
+    </Grid>
+</Window>
